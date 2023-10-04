@@ -1,0 +1,24 @@
+div {background-color:darkgray;}
+.kiva {background-color: lightgreen;}
+.kiva {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.kiva {font-family: 'Gill Sans MT'}
+
+.joku {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.joku {font-family: 'Lucida Sans'}
+.joku {font-size: large;}
+
+.jep {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.jep {font-family:'Gill Sans'}
+.jep {font-size: large;}
+.jep {color: aqua;}
+
+body{max-width: 700px; margin:auto; }
+img {width: 300px; max-width: 100%; }
+img {float: left;}
+h2 {clear: both;}
+h2 {text-align: center;}
+h1 {text-align: center;}
+h3 {text-align: center;}
+.joku {border: 4px solid lightseagreen;}
+
+
