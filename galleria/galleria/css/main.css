@@ -1,0 +1,142 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* ... Other existing global styles ... */
+
+/* Custom styles */
+.primary-color {
+    background-color: #717171;
+}
+
+.secondary-color {
+    background-color: #4f6528;
+}
+
+.default {
+    background-color: #2a2e89;
+    color: #fff;
+}
+
+.alert {
+    background-color: #c60f13;
+}
+
+header {
+    background-image: url("../img/lines.jpg");
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    line-height: 100px;
+    padding: 0 4em;
+    color: #e9e9e9;
+}
+
+/* Styles for main content and images */
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+main ul li {
+    position: relative;
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    overflow: hidden;
+}
+
+main ul li figure {
+    margin: 0;
+}
+
+main ul li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main ul li figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Flexbox Layout for main and aside */
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+aside.default {
+    order: 2;
+    width: 100%;
+}
+
+main.primary-color {
+    order: 1;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .content-container {
+        flex-direction: row;
+    }
+
+    aside.default {
+        width: 20%;
+        flex-basis: 250px;
+        flex-shrink: 0;
+    }
+
+    main.primary-color {
+        flex-grow: 1;
+    }
+}
+
+/* Responsive adjustments for image gallery */
+@media (max-width: 800px) {
+    main ul li {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    main ul li {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+/* Additional existing styles */
+/* Add here any other styles that are part of your CSS file */
+
+/* Print styles and other helper classes as provided */
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Print and high-resolution styles */
+}
+
+/* Helper classes */
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/* ... Other helper classes ... */
