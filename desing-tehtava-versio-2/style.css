@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: #2a2a2a; /* Dark background */
-    color: #ccc; /* Light grey text */
+    color: #5e5e5e; /* Light grey text */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
