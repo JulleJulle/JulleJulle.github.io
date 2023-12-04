@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omena</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+       
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+        .navbar {
+            background-color: #f8f8f8; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: #333;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #333;
+        }
+
+      
+        .hero-section {
+            background: url('https://wallpapercosmos.com/w/full/d/1/8/81639-3840x2160-desktop-4k-apple-logo-background-photo.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 120px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .hero-section .btn {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+       
+        .feature-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .feature-item {
+            margin-bottom: 30px;
+        }
+        .feature-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 10px; 
+        }
+        .feature-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .feature-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .footer {
+            background-color: #f8f8f8;
+            color: #666;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+     
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 80px 0;
+            }
+            .hero-section h1 {
+                font-size: 2.5rem;
+            }
+            .hero-section p {
+                font-size: 1rem;
+            }
+        }
+
+     
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+        }
+
+        .btn-outline-dark {
+            border-color: #333;
+            color: #333;
+        }
+
+        .btn-outline-dark:hover {
+            background: #333;
+            color: #fff;
+        }
+
+      
+        #accordion .card-header {
+            background-color: transparent;
+            border-bottom: none;
+        }
+
+        #accordion .btn-link {
+            color: #333;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        #accordion .btn-link:hover {
+            color: #007bff;
+        }
+
+        
+        .modal-content {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Omena</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Welcome to Omena</h1>
+            <p>Discover our latest products and innovations.</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <img src="ippone 12.jpg" alt="iPhone 12">
+                    <h3>iPhone 12</h3>
+                    <p>The iPhone 12 and iPhone 12 Mini...</p>
+                    <a href="#" class="btn btn-outline-dark">Buy now</a>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <img src="ippone 13.jpg" alt="iPhone 13">
+                    <h3>iPhone 13</h3>
+                    <p>The iPhone 13 and iPhone 13 Mini...</p>
+                    <a href="#" class="btn btn-outline-dark">Buy now</a>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <img src="ippone14.png" alt="iPhone 14">
+                    <h3>iPhone 14</h3>
+                    <p>The iPhone 14 and iPhone 14 Plus...</p>
+                    <a href="#" class="btn btn-outline-dark">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2023 Omenakauppa</p>
+        </div>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
